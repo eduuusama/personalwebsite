@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eduardo Samayoa - Works</title>
+    <meta name="theme-color" content="#ffffff" />
+    <title>Works | Eduardo Samayoa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +16,28 @@
   <body>
     <header>
       <nav>
+        <button
+          class="menu-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          type="button"
+        >
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="works.html">Works</a></li>
@@ -25,28 +48,19 @@
     </header>
 
     <main>
-      <h1>Eduardo Samayoa</h1>
-      <div class="page-title">Works</div>
-
+      <h1>Works</h1>
       <section class="works-list">
         <article>
           <h2>
-            <a href="#">Project Name</a>
+            <a href="#">Project Title</a>
           </h2>
-          <p class="project-description">
-            Brief description of the project and its impact.
-          </p>
-        </article>
-
-        <article>
-          <h2>
-            <a href="#">Another Project</a>
-          </h2>
-          <p class="project-description">
-            Description of another significant project.
-          </p>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
         </article>
       </section>
     </main>
+
+    <script src="js/menu.js"></script>
   </body>
 </html>
