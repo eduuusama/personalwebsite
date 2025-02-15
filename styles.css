@@ -303,4 +303,16 @@ h2 {
 
 .post-content em {
     font-style: italic;
+}
+
+.post-image {
+    margin-bottom: 2rem;
+    width: 33.33%;
+    margin-left: auto;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 } 
