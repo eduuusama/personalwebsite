@@ -1,0 +1,160 @@
+:root {
+    --primary-color: #000;
+    --background-color: #fff;
+    --spacing-unit: 2rem;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.5;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    padding: 2rem;
+}
+
+/* Layout */
+header, main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.page-title {
+    font-size: 0.9rem;
+    margin-bottom: 4rem;
+    font-weight: 400;
+}
+
+/* Blog Posts */
+.blog-posts article {
+    margin-bottom: 2rem;
+    border-top: 1px solid #eee;
+    padding-top: 2rem;
+}
+
+.blog-posts h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.blog-posts h2 a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.blog-posts h2 a:hover {
+    text-decoration: underline;
+}
+
+time {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Works Page */
+.works-list article {
+    margin-bottom: 2rem;
+    border-top: 1px solid #eee;
+    padding-top: 2rem;
+}
+
+.works-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.works-list h2 a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.works-list h2 a:hover {
+    text-decoration: underline;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* About Page */
+.about-content {
+    max-width: 680px;
+}
+
+.about-content p {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Contact Page */
+.contact-content {
+    max-width: 680px;
+}
+
+.contact-content p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.contact-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+} 
