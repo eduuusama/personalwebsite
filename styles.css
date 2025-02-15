@@ -250,4 +250,57 @@ h2 {
 
 .contact-content a:hover {
     text-decoration: underline;
+}
+
+/* Post Styles */
+.post {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.post h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.post h1 sup {
+    font-size: 1rem;
+    vertical-align: super;
+}
+
+.post .subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #333;
+}
+
+.post time {
+    display: block;
+    margin-bottom: 2rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content strong {
+    font-weight: 600;
+}
+
+.post-content em {
+    font-style: italic;
 } 
