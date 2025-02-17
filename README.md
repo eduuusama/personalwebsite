@@ -1,5 +1,3 @@
-# Hello World!
-
 # Prompt to add a new blog:
 
 # Adding a New Blog Post
