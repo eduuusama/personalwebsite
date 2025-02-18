@@ -157,6 +157,70 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Reduce text sizes by 49% (two 30% reductions) */
+    body {
+        font-size: 7.84px; /* 49% of 16px */
+    }
+
+    h1 {
+        font-size: 0.8575rem; /* 49% of 1.75rem */
+    }
+
+    .page-title {
+        font-size: 0.427rem; /* 49% of 0.875rem */
+    }
+
+    .blog-posts h2 {
+        font-size: 0.735rem; /* 49% of 1.5rem */
+    }
+
+    time {
+        font-size: 0.441rem; /* 49% of 0.9rem */
+    }
+
+    .project-description {
+        font-size: 0.441rem; /* 49% of 0.9rem */
+    }
+
+    .intro p {
+        font-size: 0.539rem; /* 49% of 1.1rem */
+    }
+
+    h2 {
+        font-size: 0.588rem; /* 49% of 1.2rem */
+    }
+
+    .investor h3,
+    .award h3 {
+        font-size: 0.49rem; /* 49% of 1rem */
+    }
+
+    .investor p,
+    .award p,
+    .contact-content p {
+        font-size: 0.441rem; /* 49% of 0.9rem */
+    }
+
+    .post h1 {
+        font-size: 1.225rem; /* 49% of 2.5rem */
+    }
+
+    .post .subtitle {
+        font-size: 0.735rem; /* 49% of 1.5rem */
+    }
+
+    .post time {
+        font-size: 0.49rem; /* 49% of 1rem */
+    }
+
+    .post-content {
+        font-size: 0.539rem; /* 49% of 1.1rem */
+    }
+
+    nav a {
+        font-size: 0.6125rem; /* 49% of 1.25rem */
+    }
+
     /* Hide desktop menu */
     nav ul {
         display: none;
@@ -226,10 +290,6 @@ footer {
         padding: 0 var(--spacing-unit);
         background: var(--background-color);
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-        font-size: 1.75rem;
     }
 
     .post {
