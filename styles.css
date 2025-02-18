@@ -262,45 +262,45 @@ footer {
         display: block;
     }
 
-    /* Reduce font sizes by 20% for mobile */
+    /* Reduce font sizes by 35% for mobile */
     html {
-        font-size: 12.8px; /* 16px * 0.8 = 12.8px (20% reduction) */
+        font-size: 10.4px; /* 16px * 0.65 = 10.4px (35% reduction) */
     }
 
     nav a {
-        font-size: 1rem; /* Slightly reduced but still readable */
-    }
-
-    h1 {
-        font-size: 1.26rem;
-    }
-
-    .page-title {
-        font-size: 0.7rem; /* Reduced from 0.875rem */
-    }
-
-    .blog-posts h2 {
-        font-size: 1.08rem;
-    }
-
-    time {
-        font-size: 0.8rem;
-    }
-
-    .post h1 {
-        font-size: 1.44rem;
-    }
-
-    .post .subtitle {
-        font-size: 1rem; /* Reduced from 1.25rem */
-    }
-
-    .post-content {
         font-size: 0.9rem;
     }
 
+    h1 {
+        font-size: 1.04rem;
+    }
+
+    .page-title {
+        font-size: 0.57rem;
+    }
+
+    .blog-posts h2 {
+        font-size: 0.98rem;
+    }
+
+    time {
+        font-size: 0.7rem;
+    }
+
+    .post h1 {
+        font-size: 1.3rem;
+    }
+
+    .post .subtitle {
+        font-size: 0.81rem;
+    }
+
+    .post-content {
+        font-size: 0.8rem;
+    }
+
     .works-list h2 {
-        font-size: 1.35rem;
+        font-size: 1.1rem;
     }
 
     .post-content ul {
