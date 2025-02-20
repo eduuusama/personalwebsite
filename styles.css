@@ -157,68 +157,67 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    /* Reduce text sizes by 49% (two 30% reductions) */
     body {
-        font-size: 7.84px; /* 49% of 16px */
+        font-size: 8.624px; /* Increased by 10% from 7.84px */
     }
 
     h1 {
-        font-size: 0.8575rem; /* 49% of 1.75rem */
+        font-size: 0.94325rem; /* Increased by 10% from 0.8575rem */
     }
 
     .page-title {
-        font-size: 0.427rem; /* 49% of 0.875rem */
+        font-size: 0.4697rem; /* Increased by 10% from 0.427rem */
     }
 
     .blog-posts h2 {
-        font-size: 0.735rem; /* 49% of 1.5rem */
+        font-size: 0.8085rem; /* Increased by 10% from 0.735rem */
     }
 
     time {
-        font-size: 0.441rem; /* 49% of 0.9rem */
+        font-size: 0.4851rem; /* Increased by 10% from 0.441rem */
     }
 
     .project-description {
-        font-size: 0.441rem; /* 49% of 0.9rem */
+        font-size: 0.4851rem; /* Increased by 10% from 0.441rem */
     }
 
     .intro p {
-        font-size: 0.539rem; /* 49% of 1.1rem */
+        font-size: 0.5929rem; /* Increased by 10% from 0.539rem */
     }
 
     h2 {
-        font-size: 0.588rem; /* 49% of 1.2rem */
+        font-size: 0.6468rem; /* Increased by 10% from 0.588rem */
     }
 
     .investor h3,
     .award h3 {
-        font-size: 0.49rem; /* 49% of 1rem */
+        font-size: 0.539rem; /* Increased by 10% from 0.49rem */
     }
 
     .investor p,
     .award p,
     .contact-content p {
-        font-size: 0.441rem; /* 49% of 0.9rem */
+        font-size: 0.4851rem; /* Increased by 10% from 0.441rem */
     }
 
     .post h1 {
-        font-size: 1.225rem; /* 49% of 2.5rem */
+        font-size: 1.3475rem; /* Increased by 10% from 1.225rem */
     }
 
     .post .subtitle {
-        font-size: 0.735rem; /* 49% of 1.5rem */
+        font-size: 0.8085rem; /* Increased by 10% from 0.735rem */
     }
 
     .post time {
-        font-size: 0.49rem; /* 49% of 1rem */
+        font-size: 0.539rem; /* Increased by 10% from 0.49rem */
     }
 
     .post-content {
-        font-size: 0.539rem; /* 49% of 1.1rem */
+        font-size: 0.5929rem; /* Increased by 10% from 0.539rem */
     }
 
     nav a {
-        font-size: 0.6125rem; /* 49% of 1.25rem */
+        font-size: 0.67375rem; /* Increased by 10% from 0.6125rem */
     }
 
     /* Hide desktop menu */
