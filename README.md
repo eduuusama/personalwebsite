@@ -5,7 +5,7 @@
 ## Step 1: Create New Blog Post File
 
 1. Create a new HTML file in the `/posts` directory
-2. Name format: `{next-number} {Title With Spaces}.html`
+2. Name format: `{next-number}.html`
    (e.g., "010 Your New Blog Title.html")
 3. Copy the structure from `post-template.html`
 4. Update the following elements:
