@@ -363,8 +363,8 @@ footer {
 }
 
 .works-list article {
-    border-top: 1px solid #eee;
-    padding-top: var(--spacing-unit);
+    padding: 0.5rem 0;
+    display: inline-block;
 }
 
 .works-list h2 {
@@ -584,5 +584,30 @@ h2 {
     .blog-posts h2 a {
         padding: 0.5rem 0;
         display: inline-block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Increase main content text size */
+    main h1 {
+        font-size: 120%; /* 20% larger */
+    }
+    
+    .page-title {
+        font-size: 120%;
+    }
+    
+    .blog-posts article h2 {
+        font-size: 120%;
+    }
+    
+    .blog-posts article time {
+        font-size: 120%;
+    }
+
+    /* Increase burger menu size */
+    .menu-toggle svg {
+        width: 33.6px;  /* 28px * 1.2 */
+        height: 33.6px; /* 28px * 1.2 */
     }
 } 
