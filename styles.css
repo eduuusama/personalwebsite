@@ -591,24 +591,24 @@ h2 {
 @media screen and (max-width: 768px) {
     /* Increase main content text size */
     main h1 {
-        font-size: 120%; /* 20% larger */
+        font-size: 132%; /* Increased by 10% from 120% */
     }
     
     .page-title {
-        font-size: 120%;
+        font-size: 132%; /* Increased by 10% from 120% */
     }
     
     .blog-posts article h2 {
-        font-size: 120%;
+        font-size: 132%; /* Increased by 10% from 120% */
     }
     
     .blog-posts article time {
-        font-size: 120%;
+        font-size: 132%; /* Increased by 10% from 120% */
     }
 
     /* Increase burger menu size */
     .menu-toggle svg {
-        width: 33.6px;  /* 28px * 1.2 */
-        height: 33.6px; /* 28px * 1.2 */
+        width: 36.96px;  /* Increased by 10% from 33.6px */
+        height: 36.96px; /* Increased by 10% from 33.6px */
     }
 } 
